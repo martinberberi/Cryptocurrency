@@ -1,0 +1,138 @@
+<html language="eng">
+
+    <head>
+        <title>Bitcoin</title>
+    </head>
+    
+    <div style="color: darkcyan">
+    
+        <form action="/predict" method="post">
+        
+            <h1 div-style:"color:white">Bitcoin Cryptocurrency</h1><br><br>
+            
+            <!-- Date -->
+            <h3>Date of Market Cap Prediction</h3><input type="datetime-local" name="date" id="date" required="required"><br>
+            
+            <!-- High -->
+            <h3>High</h3><input type="float" name="high_level" id="high" required="required"><br>
+            
+            <!-- Low -->
+            <h3>Low</h3><input type="float" name="low_level" id="low" required="required"><br>
+            
+            <!-- Open -->
+            <h3>Open</h3><input type="float" name="open" id="open" required="required"><br>
+            
+            <!-- Close -->
+            <h3>Close</h3><input type="float" name="close" id="close" required="required"><br>
+            
+            <!-- Volume -->
+            <h3>Volume</h3><input type="float" name="volume" id="volume" required="required"><br><br>
+            
+            <button type="submit" value="button" id="button">Check Market Value</button>
+        
+        </form>
+        
+        <br><h2>{{prediction}}</h2>
+    
+    </div>
+
+    <style>
+    
+        body {
+            background-color: black;
+            text-align: center;
+            padding: 0px;
+        }
+        
+        #date {
+            width: 135px;
+            height: 25px;
+            text-align: center;
+            border-radius: 24px;
+            font-size: 14px;
+        }
+        
+        #date:hover {
+            background-color: red;
+        }
+        
+        #high {
+            width: 100px;
+            height: 25px;
+            text-align: center;
+            border-radius: 24px;
+            font-size: 14px;
+        }
+        
+        #high:hover {
+            background-color: red;
+        }
+        
+        #low {
+            width: 100px;
+            height: 25px;
+            text-align: center;
+            border-radius: 24px;
+            font-size: 14px;
+        }
+        
+        #low:hover {
+            background-color: red;
+        }
+        
+        #open {
+            width: 100px;
+            height: 25px;
+            text-align: center;
+            border-radius: 24px;
+            font-size: 14px;
+        }
+        
+        #open:hover {
+            background-color: red;
+        }
+        
+        #close {
+            width: 100px;
+            height: 25px;
+            text-align: center;
+            border-radius: 24px;
+            font-size: 14px;
+        }
+        
+        #close:hover {
+            background-color: red;
+        }
+        
+        #volume {
+            width: 100px;
+            height: 25px;
+            text-align: center;
+            border-radius: 24px;
+            font-size: 14px;
+        }
+        
+        #volume:hover {
+            background-color: red;
+        }
+        
+        #button {
+            width: 150px;
+            height: 25px;
+            text-align: center;
+            border-radius: 24px;
+            font-size: 14px;
+        }
+        
+        #button:hover {
+            background-color: darkcyan;
+        }
+    
+    </style>
+
+
+
+
+
+
+</html>
